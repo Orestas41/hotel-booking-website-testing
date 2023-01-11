@@ -2,6 +2,7 @@
 from booking.src.SeleniumExtended import SeleniumExtended
 from booking.src.pages.locators.RoomPageLocators import RoomPageLocators
 
+
 class RoomPage(RoomPageLocators):
 
     def __init__(self, driver):

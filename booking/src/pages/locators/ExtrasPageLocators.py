@@ -1,6 +1,7 @@
 
 from selenium.webdriver.common.by import By
 
+
 class ExtrasPageLocators:
 
     CLEANING = (By.XPATH, '//div[4]/div/div/div[2]/div/div[3]/input')

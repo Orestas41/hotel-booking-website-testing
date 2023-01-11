@@ -2,6 +2,7 @@
 from booking.src.SeleniumExtended import SeleniumExtended
 from booking.src.pages.locators.PaymentPageLocators import PaymentPageLocators
 
+
 class PaymentPage(PaymentPageLocators):
 
     def __init__(self, driver):

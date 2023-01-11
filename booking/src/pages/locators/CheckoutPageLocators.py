@@ -1,21 +1,36 @@
 
 from selenium.webdriver.common.by import By
 
+
 class CheckoutPageLocators:
 
-    ARRIVAL = (By.XPATH, '//*[@id="top_position_container"]/div[3]/div[3]/div[1]/div[2]/div[1]/div[2]')
+    ARRIVAL = (
+        By.XPATH,
+        '//*[@id="top_position_container"]/div[3]/div[3]/div[1]/div[2]/div[1]/div[2]')
 
-    STAY = (By.XPATH, '//*[@id="top_position_container"]/div[3]/div[3]/div[1]/div[2]/div[2]/div[2]')
+    STAY = (
+        By.XPATH,
+        '//*[@id="top_position_container"]/div[3]/div[3]/div[1]/div[2]/div[2]/div[2]')
 
-    DEPARTURE = (By.XPATH, '//*[@id="top_position_container"]/div[3]/div[3]/div[1]/div[2]/div[3]/div[2]')
+    DEPARTURE = (
+        By.XPATH,
+        '//*[@id="top_position_container"]/div[3]/div[3]/div[1]/div[2]/div[3]/div[2]')
 
-    TYPE = (By.XPATH, '//*[@id="top_position_container"]/div[3]/div[3]/div[1]/div[2]/div[5]/div[2]')
+    TYPE = (
+        By.XPATH,
+        '//*[@id="top_position_container"]/div[3]/div[3]/div[1]/div[2]/div[5]/div[2]')
 
-    RATE = (By.XPATH, '//*[@id="top_position_container"]/div[3]/div[3]/div[1]/div[2]/div[6]/div[2]')
+    RATE = (
+        By.XPATH,
+        '//*[@id="top_position_container"]/div[3]/div[3]/div[1]/div[2]/div[6]/div[2]')
 
-    EXTRAS = (By.XPATH, '//*[@id="top_position_container"]/div[3]/div[3]/div[1]/div[2]/div[9]/div[2]')
+    EXTRAS = (
+        By.XPATH,
+        '//*[@id="top_position_container"]/div[3]/div[3]/div[1]/div[2]/div[9]/div[2]')
 
-    TOTAL = (By.XPATH, '//*[@id="top_position_container"]/div[3]/div[3]/div[1]/div[2]/div[11]/div[2]/h3')
+    TOTAL = (
+        By.XPATH,
+        '//*[@id="top_position_container"]/div[3]/div[3]/div[1]/div[2]/div[11]/div[2]/h3')
 
     EMAIL = (By.XPATH, '//*[@id="booking_guest_attributes_e_mail"]')
 

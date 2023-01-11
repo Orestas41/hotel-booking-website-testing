@@ -1,4 +1,3 @@
-
 import pytest
 from booking.src.pages.HomePage import HomePage
 from booking.src.pages.RoomPage import RoomPage
@@ -6,6 +5,7 @@ from booking.src.pages.ExtrasPage import ExtrasPage
 from booking.src.pages.CheckoutPage import CheckoutPage
 from booking.src.pages.PaymentPage import PaymentPage
 from booking.src.pages.ConfirmationPage import ConfirmationPage
+
 
 @pytest.mark.usefixtures('init_driver')
 class TestAssessment:

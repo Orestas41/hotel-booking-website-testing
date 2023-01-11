@@ -2,6 +2,7 @@
 from booking.src.SeleniumExtended import SeleniumExtended
 from booking.src.pages.locators.ConfirmationPageLocators import ConfirmationPageLocators
 
+
 class ConfirmationPage(ConfirmationPageLocators):
 
     def __init__(self, driver):

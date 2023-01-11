@@ -3,6 +3,7 @@ from booking.src.helpers.config_helpers import get_base_url
 from booking.src.SeleniumExtended import SeleniumExtended
 from booking.src.pages.locators.HomePageLocators import HomePageLocators
 
+
 class HomePage(HomePageLocators):
 
     def __init__(self, driver):

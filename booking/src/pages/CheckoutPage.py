@@ -3,6 +3,7 @@ from booking.src.SeleniumExtended import SeleniumExtended
 from booking.src.helpers.generic_helpers import generate_random_email_and_password
 from booking.src.pages.locators.CheckoutPageLocators import CheckoutPageLocators
 
+
 class CheckoutPage(CheckoutPageLocators):
 
     def __init__(self, driver):

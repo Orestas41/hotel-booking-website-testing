@@ -37,13 +37,12 @@ class SeleniumExtended:
 
     def wait_get_elements(self, locator, timeout=None, err=None):
         timeout = timeout if timeout else self.default_timeout
-        err = err if err else f'Unable to find elemnets located by "{locator}", after timeout of {timeout}'
+        err = err if err else f'Unable to find elements located by "{locator}", after timeout of {timeout}'
         try:
             elements = WebDriverWait(self.driver, timeout).until(
-            EC.visibility_of_element_located(locator)
+                EC.visibility_of_element_located(locator)
             )
         except TimeoutException:
             raise TimeoutException(err)
 
         return elements
-
